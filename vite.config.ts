@@ -23,7 +23,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          ui: ['@radix-ui/react-tooltip', '@radix-ui/react-select', '@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu', '@radix-ui/react-avatar', '@radix-ui/react-collapsible', '@radix-ui/react-toggle-group', '@radix-ui/react-label', '@radix-ui/react-progress', '@radix-ui/react-sheet', 'lucide-react', 'class-variance-authority'],
+          ui: ['@radix-ui/react-tooltip', '@radix-ui/react-select', '@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu', '@radix-ui/react-avatar', '@radix-ui/react-collapsible', '@radix-ui/react-toggle-group', '@radix-ui/react-label', '@radix-ui/react-progress', 'lucide-react', 'class-variance-authority'],
           router: ['react-router-dom'],
           utils: ['clsx', 'tailwind-merge'],
         },
